@@ -42,7 +42,7 @@
 				text-decoration: none;
 				font-size: 18px;
 				padding: 10px 0 10px 30px;
-				margin: 0 0 10px;
+				margin: 0;
 			}
 
 			&:hover {
@@ -67,4 +67,10 @@
 	width: 100%;
 	background-color: $color_sidebar_header;
 	margin-bottom: 60px;
+}
+
+#side_head_logo {
+	width: 260px;
+	height: 60px;
+	background: $url_logo 30px 20px no-repeat;
 }

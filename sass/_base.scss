@@ -25,6 +25,7 @@ a:active,
 a:link,
 a:visited {
 	color: $color_sidebar_nav_item_active;
+	text-decoration: none;
 }
 
 #main_wrapper {
@@ -56,10 +57,6 @@ a:visited {
 	height: 0;
 	width: 0;
 	clear: both;
-}
-
-h1.page_title {
-	// font-weight: 200;
 }
 
 h1,
