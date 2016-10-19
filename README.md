@@ -4,7 +4,11 @@
 - nodejs (tested on 4.6.1)
 - gulp (tested on 3.9.1)
 
-# Instructions
+# Quickstart
 - Clone the repository
-- ```npm install``` to install dependencies
-- ```gulp sass:watch``` to have gulp watch and build css when changes to scss files are discovered
+- Install dependencies: ```npm install```
+- ```python run.py```
+- http://127.0.0.1:5000
+
+# Development
+- Compile CSS and watch for changes ```gulp sass:watch```
