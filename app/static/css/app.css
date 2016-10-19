@@ -130,9 +130,11 @@ h2 {
 }
 
 #side_head_logo {
-  width: 260px;
-  height: 60px;
-  background: url("../img/logo.png") 30px 20px no-repeat;
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 36px;
+  line-height: 50px;
+  margin: 0 0 0 30px;
+  padding: 0;
 }
 
 .modal {

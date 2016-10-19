@@ -70,7 +70,12 @@
 }
 
 #side_head_logo {
-	width: 260px;
-	height: 60px;
-	background: $url_logo 30px 20px no-repeat;
+	// width: 260px;
+	// height: 60px;
+	font-family: 'Bree Serif', sans-serif;
+	font-size:36px;
+	line-height:50px;
+	margin: 0 0 0 30px;
+	padding: 0;
+	// background: $url_logo 30px 20px no-repeat;
 }
