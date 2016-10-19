@@ -20,7 +20,7 @@ a,
 a:active,
 a:link,
 a:visited {
-  color: #f5545f;
+  color: #878AF5;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ a:visited {
 #main_head {
   height: 60px;
   width: 100%;
-  background-color: #FF424F;
+  background-color: #5347D3;
 }
 
 #content {
@@ -115,7 +115,7 @@ h2 {
 }
 
 #sidebar dl a.active dd {
-  color: #f5545f;
+  color: #878AF5;
   background-color: #222b30;
   background-image: url("../img/arrow.png");
   background-position: 95% 50%;
@@ -125,7 +125,7 @@ h2 {
 #side_head {
   height: 60px;
   width: 100%;
-  background-color: #f83745;
+  background-color: #3549BA;
   margin-bottom: 60px;
 }
 
