@@ -1,0 +1,70 @@
+#side_wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 260px;
+	z-index: 5;
+}
+
+#sidebar {
+	width: 100%;
+	background-color: $color_mirage_approx;
+	height: 100%;
+	float: left;
+	position: relative;
+	z-index: 10;
+
+	hr {
+		height: 1px;
+		background-color: $color_tuatara_approx;
+		border: 0;
+		margin: 20px;
+	}
+
+	dl {
+		margin: 0 0 50px;
+
+		dt {
+			color: $color_storm_dust_approx;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			padding: 20px 0 20px 30px;
+		}
+
+		a {
+			text-decoration: none;
+			padding: 0;
+			margin: 0;
+
+			dd {
+				color: $color_mischka_approx;
+				text-decoration: none;
+				font-size: 18px;
+				padding: 10px 0 10px 30px;
+				margin: 0 0 10px;
+			}
+
+			&:hover {
+				text-decoration: none;
+
+				dd {}
+			}
+
+			&.active dd {
+				color: $color_carnation_approx;
+				background-color: $color_shark_approx;
+				background-image: $url_arrow;
+				background-position: 95% 50%;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+}
+
+#side_head {
+	height: 60px;
+	width: 100%;
+	background-color: $color_coral_red_approx;
+	margin-bottom: 60px;
+}

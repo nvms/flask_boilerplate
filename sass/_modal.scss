@@ -1,0 +1,53 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(16, 22, 28, 0.81);
+
+    .dialog {
+        color: white;
+        background-color: $color_shark_approx;
+        box-shadow: 0 10px 15px 15px rgba(0,0,0,0.1);
+
+        & .header {
+            background-color: rgb(51, 62, 68);
+            height: 60px;
+            width: 100%;
+
+            & .corner {
+                background-color: $color_magic;
+                width: 60px;
+                height: 60px;
+                float: left;
+            }
+
+            & .title {
+                float: left;
+                line-height: 60px;
+                margin-left: 15px;
+                height: 60px;
+                font-size: 20px;
+            }
+        }
+
+        & .content {
+            padding: 25px;
+        }
+    }
+
+    &.modal-sm > .dialog {
+        width: 400px;
+    }
+
+    &.modal-md > .dialog {
+        width: 550px;
+    }
+
+    &.modal-lg > .dialog {
+        width: 960px;
+    }
+}
