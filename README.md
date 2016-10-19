@@ -6,9 +6,9 @@
 
 # Quickstart
 - Clone the repository
-- Install dependencies: ```npm install```
-- ```python run.py```
-- http://127.0.0.1:5000
+- Install the dependencies: ```npm install```
+- Start the server: ```python run.py```
+- Visit http://127.0.0.1:5000
 
-# Development
-- Compile CSS and watch for changes ```gulp sass:watch```
+# Notes
+When using ```gulp sass:watch```, changes made to ```/sass/**/*.scss``` files are noticed and compiled into css at ```/app/static/css/app.css```.
