@@ -1,20 +1,20 @@
 {
-  "name": "flask_boilerplate",
-  "version": "1.0.0",
-  "description": "quickstart flask with gulp for scss",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "flask",
-    "gulp"
-  ],
-  "author": "nvms",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^2.1.1"
-  }
+    "name": "flask_boilerplate",
+    "version": "1.0.0",
+    "description": "quickstart flask with gulp for scss",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "flask",
+        "gulp"
+    ],
+    "author": "nvms",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-sass": "^2.3.2",
+        "gulp-sourcemaps": "^2.1.1"
+    }
 }

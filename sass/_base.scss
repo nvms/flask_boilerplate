@@ -4,7 +4,6 @@ $font_1: sans-serif;
 
 * {
 	font-family: $font_0, $font_1;
-	color: $white;
 }
 
 *:-moz-focusring {
@@ -17,7 +16,15 @@ $font_1: sans-serif;
 }
 
 body {
+	color: $white;
 	background-color: $color_sidebar_background;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+	color: $color_sidebar_nav_item_active;
 }
 
 #main_wrapper {
@@ -45,12 +52,11 @@ body {
 }
 
 .clear {
-	display:block;
-	height:0px;
-	width:0px;
-	clear:both;
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
 }
-
 
 h1.page_title {
 	// font-weight: 200;

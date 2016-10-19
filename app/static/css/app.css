@@ -53,7 +53,7 @@
 }
 
 #sidebar dl a.active dd {
-  color: #f5545f;
+  color: #70E9DF;
   background-color: #222b30;
   background-image: url("../img/arrow.png");
   background-position: 95% 50%;
@@ -63,7 +63,7 @@
 #side_head {
   height: 60px;
   width: 100%;
-  background-color: #f83745;
+  background-color: #24D9CA;
   margin-bottom: 60px;
 }
 
@@ -654,7 +654,6 @@ input[type=button]:active {
 
 * {
   font-family: Roboto, sans-serif;
-  color: #ffffff;
 }
 
 *:-moz-focusring {
@@ -667,7 +666,15 @@ input[type=button]:active {
 }
 
 body {
+  color: #ffffff;
   background-color: #191c1f;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+  color: #70E9DF;
 }
 
 #main_wrapper {
@@ -687,7 +694,7 @@ body {
 #main_head {
   height: 60px;
   width: 100%;
-  background-color: #FF424F;
+  background-color: #70E9DF;
 }
 
 #content {
@@ -696,8 +703,8 @@ body {
 
 .clear {
   display: block;
-  height: 0px;
-  width: 0px;
+  height: 0;
+  width: 0;
   clear: both;
 }
 

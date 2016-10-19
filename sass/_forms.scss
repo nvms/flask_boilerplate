@@ -3,8 +3,6 @@ label {
     margin: 10px 0;
 }
 
-
-
 .form-input {
     background-color: $color_input_background;
     border: 2px solid $color_input_border;
@@ -50,7 +48,6 @@ input[type=button] {
     &:active {
         border: 2px solid $color_input_border_focus;
         background-color: $color_input_background_focus;
-        color:$white;
+        color: $white;
     }
-
 }
