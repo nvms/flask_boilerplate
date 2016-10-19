@@ -67,12 +67,6 @@
   margin-bottom: 60px;
 }
 
-#side_head_logo {
-  width: 260px;
-  height: 60px;
-  background: url("../img/logo.png") 30px 20px no-repeat;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -700,83 +694,11 @@ body {
   padding: 70px 40px;
 }
 
-.library {
-  display: block;
-}
-
 .clear {
   display: block;
   height: 0px;
   width: 0px;
   clear: both;
-}
-
-.library_item {
-  float: left;
-}
-
-.library_item .genre {
-  color: #a1cae5;
-}
-
-.cover {
-  width: 222px;
-  height: 330px;
-  background-color: #191c1f;
-  background-size: cover;
-  margin-bottom: 20px;
-  box-shadow: 0 10px 15px 15px rgba(0, 0, 0, 0.05);
-}
-
-.cover:hover .rating {
-  background-color: #f83745;
-  cursor: pointer;
-}
-
-.cover_hover {
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.cover_hover .item_actions {
-  position: relative;
-  z-index: 20;
-  top: -10px;
-  float: left;
-  width: 222px;
-  text-align: center;
-}
-
-.cover_hover .item_actions .rating {
-  background-color: #ffb10a;
-  border-radius: 20px;
-  padding: 5px 12px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.cover_hover .item_actions .magic {
-  display: none;
-  background-color: #a269f2;
-  border-radius: 20px;
-  padding: 5px 12px;
-  cursor: pointer;
-  width: 0;
-}
-
-.cover_hover:hover {
-  background-color: rgba(255, 0, 0, 0.3);
-  cursor: default;
-}
-
-.cover_hover:hover .item_actions .magic {
-  display: inline-block;
-  width: auto;
 }
 
 h1,
