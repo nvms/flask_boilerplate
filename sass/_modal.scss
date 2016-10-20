@@ -7,11 +7,15 @@
     bottom: 0;
     left: 0;
     background-color: rgba(16, 22, 28, 0.81);
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
 
     .dialog {
         color: white;
         background-color: $color_main_content_background;
         box-shadow: 0 10px 15px 15px rgba(0,0,0,0.1);
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
 
         & .header {
             background-color: rgb(51, 62, 68);

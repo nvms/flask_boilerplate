@@ -146,12 +146,16 @@ h2 {
   bottom: 0;
   left: 0;
   background-color: rgba(16, 22, 28, 0.81);
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 
 .modal .dialog {
   color: white;
   background-color: #222b30;
   box-shadow: 0 10px 15px 15px rgba(0, 0, 0, 0.1);
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 
 .modal .dialog .header {
